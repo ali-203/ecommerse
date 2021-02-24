@@ -2,7 +2,6 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-
     }
     body{
         font-family: 'Poppins', sans-serif;
@@ -144,4 +143,8 @@ h4{
 }
 .col-4:hover{
     transform: translateY(-5px);
+}
+
+.offer{
+    background: r  adiul;
 }
