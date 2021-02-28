@@ -279,9 +279,6 @@ ul{
 
 /*------------media query for menu ------*/
 
-
-
-
 @media only screen and (max-width:800px){
 
     nav ul{
@@ -308,6 +305,8 @@ nav ul li a{
 }
 
 }
+
+
 /*--------all products page------*/
 .row-2{
     justify-content: space-between;
@@ -374,18 +373,18 @@ input:focus{
     color: #ff523b;
     margin-left: 10px;
 }
-
-
-
-
-
-
-
-
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
 
 /*-----media query for less than 600 screen size---*/
 
-@media only screen and (max-width:800px)
+@media only screen and (max-width:600px)
 {
 .row{
 text-align: center;
@@ -394,6 +393,16 @@ text-align: center;
     flex-basis: 100%;
 }
 
+.single-product .row{
+text-align: left;
+}
+.single-product .col-2{
+    padding: 20px 0;
+}
+.single-product h1{
+    font-size: 26px;
+    line-height: 32px;
+}
 
 }
 
