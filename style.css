@@ -502,8 +502,22 @@ th:last-child{
  }
 form input{
     width: 100%;
-    
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+ }
+ form .btn{
+     width: 100%;
+     border: none;
+     cursor: pointer;
+     margin: 10px 0 ;
+ }
+form .btn:focus{
+    outline: none;
 }
+#LoginForm {
 
+}
 
 
